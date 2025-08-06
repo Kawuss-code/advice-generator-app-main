@@ -42,8 +42,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .line-long {
     width: 175px;
@@ -53,7 +52,6 @@ body {
 .line-1, .line-2 {
     width: 6px;
     height: 14px;
-    margin: 0 5px 0 2px;
     border-radius: 3px;
     background-color: hsl(193, 38%, 86%);
 }
