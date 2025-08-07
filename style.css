@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,800;1,9..40,800&family=Manrope:wght@200..800&display=swap');
 body {
-    height: 100vh;
+    height: 100dvh;
     margin: 0;
     background-color: hsl(218, 23%, 16%);
     font-family: Manrope;
@@ -11,7 +11,8 @@ body {
 }
 /* Card with button */
 .content {
-    width: 475px;
+    width: 90%;
+    max-width: 475px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,13 +30,14 @@ body {
     align-items: center;
 }
 .advice-id {
+    margin: 0;
     color: hsl(150, 100%, 66%);
-    font-size: 70%;
-    letter-spacing: 4px;
+    font-size: 0.7rem;
+    letter-spacing: 0.25rem;
 }
 .quote {
     color: hsl(193, 38%, 86%);
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 /* Line */
 .line-container {
@@ -65,6 +67,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -30px;
 }
 .dice-button img {
     width: 24px;
