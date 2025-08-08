@@ -1,4 +1,6 @@
 function Reload() {
+    document.getElementById("quote").innerHTML = "Loading...";
+
     fetch("https://api.adviceslip.com/advice")
     .then(response => response.json())
     .then((data) => {
